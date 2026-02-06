@@ -495,5 +495,27 @@
     </div>
 
     <script src="mission-trips.js"></script>
+    
+    <!-- Auto-resize for iframe embedding -->
+    <script>
+        // Send height to parent window for iframe auto-resize
+        function sendHeight() {
+            if (window.parent !== window) {
+                const height = document.documentElement.scrollHeight;
+                window.parent.postMessage({ height: height }, '*');
+            }
+        }
+        
+        // Send height on load and when content changes
+        window.addEventListener('load', sendHeight);
+        window.addEventListener('resize', sendHeight);
+        
+        // Send height when accordions open/close
+        document.addEventListener('click', function(e) {
+            if (e.target.closest('.accordion-header')) {
+                setTimeout(sendHeight, 500);
+            }
+        });
+    </script>
 </body>
 </html>
