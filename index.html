@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="theme-color" content="#4a90e2" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)">
+    <meta name="description" content="2026 Mission Trips Guide for York Alliance Family of Churches - 10 global and local mission opportunities">
+    <title>2026 Mission Trips Guide | York Alliance Family of Churches</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+/* ===================================
+   Global Styles & Reset
+   =================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Color Palette - Light Mode */
+    --primary-color: #999999;
+    --secondary-color: #828282;
+    --accent-color: #4a90e2;
+    --text-dark: #333333;
+    --text-light: #666666;
+    --border-color: #e0e0e0;
+    --background-light: #f9f9f9;
+    --background-white: #ffffff;
+    --hover-color: #f0f0f0;
+    --hero-overlay: rgba(0, 0, 0, 0.4);
+    --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Mode Colors */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color: #b0b0b0;
+        --secondary-color: #a0a0a0;
+        --accent-color: #5da3f5;
+        --text-dark: #e0e0e0;
+        --text-light: #b0b0b0;
+        --border-color: #404040;
+        --background-light: #1a1a1a;
+        --background-white: #242424;
+        --hover-color: #2a2a2a;
+        --hero-overlay: rgba(0, 0, 0, 0.6);
+        --shadow-color: rgba(0, 0, 0, 0.3);
+    }
+    
+    /* Typography */
+    --font-primary: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-heading: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+    
+    /* Spacing - More generous */
+    --spacing-xs: 0.75rem;
+    --spacing-sm: 1.25rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 3rem;
+    --spacing-xl: 4rem;
+    --spacing-xxl: 6rem;
+    
+    /* Border Radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    
+    /* Shadows */
+    --shadow-sm: 0 2px 4px var(--shadow-color);
+    --shadow-md: 0 4px 8px var(--shadow-color);
+    --shadow-lg: 0 8px 16px var(--shadow-color);
+}
+
+/* Dark Mode Colors */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color: #b0b0b0;
+        --secondary-color: #a0a0a0;
+        --accent-color: #5da3f5;
+        --text-dark: #e0e0e0;
+        --text-light: #b0b0b0;
+        --border-color: #404040;
+        --background-light: #1a1a1a;
+        --background-white: #242424;
+        --hover-color: #2a2a2a;
+        --hero-overlay: rgba(0, 0, 0, 0.6);
+        --shadow-color: rgba(0, 0, 0, 0.3);
+    }
+}
+    
+    /* Border Radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    
+    /* Shadows */
+    --shadow-sm: 0 2px 4px var(--shadow-color);
+    --shadow-md: 0 4px 8px var(--shadow-color);
+    --shadow-lg: 0 8px 16px var(--shadow-color);
+}
+
+/* Ensure smooth color transitions */
+* {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Force font loading */
+body,
+p,
+li,
+span,
+div {
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.accordion-title h3,
+.hero-title,
+.hero-title-large,
+.section-title,
+.reason h3 {
+    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+    font-family: var(--font-primary);
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--text-dark);
+    background-color: var(--background-light);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 0.01em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--background-white);
+}
+
+/* ===================================
+   Hero Section - Image Only
+   =================================== */
+.hero {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--background-white);
+}
+
+.hero-image {
+    width: 100%;
+    line-height: 0;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 70vh;
+    object-fit: cover;
+}
+
+/* Hero Text Section - Below Image */
+.hero-text {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    padding: var(--spacing-xxl) var(--spacing-lg);
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-subtitle {
+    font-size: clamp(1.2rem, 3vw, 1.6rem);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin: var(--spacing-sm) 0;
+    opacity: 0.95;
+}
+
+.hero-title {
+    font-family: var(--font-heading);
+    font-size: clamp(2.5rem, 7vw, 4rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin: var(--spacing-md) 0;
+    line-height: 1.1;
+}
+
+.hero-title-large {
+    font-family: var(--font-heading);
+    font-size: clamp(3rem, 9vw, 5rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin: var(--spacing-lg) 0;
+    line-height: 1;
+    display: block;
+}
+
+.hero-author {
+    font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+    font-style: italic;
+    margin-top: var(--spacing-xl);
+    opacity: 0.95;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+}
+
+/* ===================================
+   Introduction Section
+   =================================== */
+.intro {
+    padding: var(--spacing-xxl) var(--spacing-xl);
+    background-color: var(--background-white);
+}
+
+.section-title {
+    font-family: var(--font-heading);
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    letter-spacing: 0.08em;
+    margin-bottom: var(--spacing-xxl);
+    padding-bottom: var(--spacing-lg);
+    border-bottom: 4px solid var(--accent-color);
+    text-align: center;
+}
+
+.section-title.global {
+    color: var(--accent-color);
+}
+
+.section-title.local {
+    color: #2ecc71;
+}
+
+.intro-content > p {
+    font-size: 1.15rem;
+    line-height: 1.9;
+    margin-bottom: var(--spacing-xl);
+    color: var(--text-light);
+    max-width: 900px;
+}
+
+.intro-reasons {
+    display: grid;
+    gap: var(--spacing-xl);
+    margin-top: var(--spacing-xxl);
+}
+
+.reason {
+    background-color: var(--background-light);
+    padding: var(--spacing-xl);
+    border-radius: var(--radius-md);
+    border-left: 4px solid var(--accent-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reason:hover {
+    transform: translateX(8px);
+    box-shadow: var(--shadow-md);
+}
+
+.reason h3 {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    color: var(--text-dark);
+    margin-bottom: var(--spacing-md);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.reason p {
+    color: var(--text-light);
+    line-height: 1.9;
+    font-size: 1.05rem;
+}
+
+.reason em {
+    font-style: italic;
+    color: var(--accent-color);
+}
+
+/* ===================================
+   Trips Section
+   =================================== */
+.trips {
+    padding: var(--spacing-xxl) var(--spacing-xl) var(--spacing-xxl);
+    background-color: var(--background-light);
+}
+
+/* ===================================
+   Accordion Styles
+   =================================== */
+.accordion-item {
+    background-color: var(--background-white);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--spacing-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: box-shadow 0.3s ease;
+    border: 1px solid var(--border-color);
+}
+
+.accordion-item:hover {
+    box-shadow: var(--shadow-md);
+}
+
+.accordion-header {
+    width: 100%;
+    background-color: var(--background-white);
+    border: none;
+    padding: var(--spacing-lg) var(--spacing-xl);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    text-align: left;
+    transition: background-color 0.3s ease;
+    gap: var(--spacing-lg);
+}
+
+.accordion-header:hover {
+    background-color: var(--hover-color);
+}
+
+.accordion-header:focus {
+    outline: 2px solid var(--accent-color);
+    outline-offset: -2px;
+}
+
+.accordion-title {
+    flex: 1;
+}
+
+.accordion-title h3 {
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    color: var(--text-dark);
+    margin-bottom: var(--spacing-sm);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1.4;
+}
+
+.trip-subtitle {
+    font-size: 1rem;
+    color: var(--text-light);
+    font-style: italic;
+    margin: 0;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.accordion-icon {
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--accent-color);
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--background-light);
+}
+
+.accordion-item.active .accordion-icon {
+    transform: rotate(45deg);
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+}
+
+.accordion-item.active .accordion-content {
+    max-height: 3000px;
+    padding: var(--spacing-xl) var(--spacing-xl) var(--spacing-xxl);
+}
+
+/* ===================================
+   Trip Details
+   =================================== */
+.trip-details {
+    color: var(--text-light);
+    line-height: 1.9;
+    font-size: 1.05rem;
+}
+
+.trip-meta {
+    background-color: var(--background-light);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-sm);
+    margin-bottom: var(--spacing-xl);
+    border-left: 3px solid var(--accent-color);
+}
+
+.trip-meta p {
+    margin-bottom: var(--spacing-sm);
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.trip-meta p:last-child {
+    margin-bottom: 0;
+}
+
+.trip-details > p {
+    margin-bottom: var(--spacing-lg);
+}
+
+.trip-details ul {
+    margin: var(--spacing-lg) 0;
+    padding-left: var(--spacing-xl);
+}
+
+.trip-details li {
+    margin-bottom: var(--spacing-md);
+    position: relative;
+    line-height: 1.8;
+}
+
+.trip-details li::marker {
+    color: var(--accent-color);
+}
+
+.trip-details ul ul {
+    margin-top: var(--spacing-sm);
+}
+
+.trip-footer {
+    margin-top: var(--spacing-xl);
+    padding-top: var(--spacing-xl);
+    border-top: 2px solid var(--border-color);
+}
+
+.trip-footer p {
+    margin-bottom: var(--spacing-lg);
+    line-height: 1.8;
+}
+
+.trip-footer p:last-child {
+    margin-bottom: 0;
+}
+
+.trip-footer a {
+    color: var(--accent-color);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.trip-footer a:hover {
+    border-bottom-color: var(--accent-color);
+}
+
+/* ===================================
+   Vision Footer
+   =================================== */
+.vision {
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+    color: white;
+    padding: var(--spacing-xxl) var(--spacing-lg);
+    text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+    .vision {
+        background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
+        border-top: 1px solid var(--border-color);
+    }
+}
+
+.vision-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.vision-text {
+    line-height: 1.6;
+    margin-bottom: var(--spacing-lg);
+}
+
+.vision-text span {
+    display: inline;
+    text-transform: uppercase;
+}
+
+.vision-medium {
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.vision-large {
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.vision-xlarge {
+    font-size: 2.2rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.vision-xxlarge {
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    display: block;
+    margin: var(--spacing-sm) 0;
+}
+
+.vision-attribution {
+    font-size: 1rem;
+    font-style: italic;
+    opacity: 0.9;
+    margin-top: var(--spacing-lg);
+}
+
+/* ===================================
+   Responsive Design
+   =================================== */
+@media (max-width: 768px) {
+    .hero {
+        min-height: 60vh;
+        padding: clamp(2rem, 8vw, 4rem) var(--spacing-md);
+    }
+    
+    .hero-content {
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8),
+                     0 0 15px rgba(0, 0, 0, 0.6);
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    .accordion-title h3 {
+        font-size: 1.1rem;
+    }
+    
+    .trip-subtitle {
+        font-size: 0.85rem;
+    }
+    
+    .accordion-header {
+        padding: var(--spacing-md);
+        flex-wrap: wrap;
+    }
+    
+    .accordion-item.active .accordion-content {
+        padding: 0 var(--spacing-md) var(--spacing-md);
+    }
+    
+    .trip-details ul {
+        padding-left: var(--spacing-md);
+    }
+    
+    .vision-medium {
+        font-size: 1rem;
+    }
+    
+    .vision-large {
+        font-size: 1.5rem;
+    }
+    
+    .vision-xlarge {
+        font-size: 1.7rem;
+    }
+    
+    .vision-xxlarge {
+        font-size: 2.5rem;
+    }
+    
+    .intro,
+    .trips {
+        padding-left: var(--spacing-md);
+        padding-right: var(--spacing-md);
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --spacing-xl: 2rem;
+        --spacing-xxl: 2.5rem;
+    }
+    
+    .hero {
+        min-height: 50vh;
+    }
+    
+    .accordion-icon {
+        width: 32px;
+        height: 32px;
+        font-size: 1.5rem;
+    }
+    
+    .intro,
+    .trips {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .trip-meta {
+        padding: var(--spacing-sm);
+    }
+}
+
+/* ===================================
+   Print Styles
+   =================================== */
+@media print {
+    .hero,
+    .vision {
+        background: white !important;
+        color: black !important;
+    }
+    
+    .accordion-item {
+        page-break-inside: avoid;
+    }
+    
+    .accordion-content {
+        max-height: none !important;
+        padding: var(--spacing-md) !important;
+    }
+    
+    .accordion-icon {
+        display: none;
+    }
+}
+
+/* ===================================
+   Accessibility Improvements
+   =================================== */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-image">
+                <img src="go-guide-hero.jpg" alt="Go Guide 2026 - Mission Trips" />
+            </div>
+        </header>
+        
+        <section class="hero-text">
+            <div class="hero-content">
+                <p class="hero-subtitle">Expect</p>
+                <h1 class="hero-title">GREAT THINGS</h1>
+                <p class="hero-subtitle">from</p>
+                <h1 class="hero-title-large">GOD;</h1>
+                <p class="hero-subtitle">attempt</p>
+                <h1 class="hero-title">GREAT THINGS</h1>
+                <p class="hero-subtitle">for</p>
+                <h1 class="hero-title-large">GOD.</h1>
+                <p class="hero-author">William Carey</p>
+            </div>
+        </section>
+
+        <!-- Introduction Section -->
+        <section class="intro">
+            <h2 class="section-title">KNOW BEFORE YOU GO</h2>
+            
+            <div class="intro-content">
+                <p>This resource is designed to guide you in making a decision about serving on a local or overseas short-term mission team. It will act as the starting point in opening your heart to the needs that are prevalent both locally and globally.</p>
+
+                <div class="intro-reasons">
+                    <div class="reason">
+                        <h3>Why do we go?</h3>
+                        <p>By going, we are taking intentional steps into the Great Commission of Jesus to <em>go and make disciples of all nations.</em> The good news of the gospel needs to be heard and experienced throughout the world and, as believers in Christ, we play a role in sharing this good news. When we go, we serve as Christ's ambassadors as if He was making His appeal through us.</p>
+                    </div>
+
+                    <div class="reason">
+                        <h3>Support those who have served before you.</h3>
+                        <p>Philippians 4:10 says, <em>I rejoiced greatly in the Lord that at last you renewed your concern for me. Indeed, you were concerned, but you had no opportunity to show it.</em> By joining those who have served on previous teams, we are not only thanking them for their work but we are strengthening the relationship through the bonds of servanthood.</p>
+                    </div>
+
+                    <div class="reason">
+                        <h3>Be a part of the work.</h3>
+                        <p>Matthew 9:37-38 states, <em>The harvest is plentiful but the workers are few. Ask the Lord of the harvest, therefore, to send out workers into his harvest field.</em> Serving as a worker on a short-term trip can look different depending upon the trip. With this guide, our goal is to provide an effective resource that helps those serving further their work for the Kingdom of God.</p>
+                    </div>
+
+                    <div class="reason">
+                        <h3>Grow as disciples.</h3>
+                        <p>2 Corinthians 5:17-18 says, <em>Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here! All this is from God, who reconciled us to himself through Christ and gave us the ministry of reconciliation.</em> This process of sanctification is a continual transformation of our hearts. When we experience the deep need and brokenness of other cultures, God does something in us. Serving on a short-term trip is a powerful way to discover and experience the great need of the world and to nurture a desire for sharing His love with others.</p>
+                    </div>
+
+                    <div class="reason">
+                        <h3>Trust God</h3>
+                        <p><em>Blessed is the man who makes the Lord his trust - Psalm 40:4</em> Praying before choosing to go on a trip is vital in making your decision. It should be made out of a sincere dialogue and desire to serve our Lord and Savior first. If you sense the Spirit leading you to take this step of faith, please know that God will provide the way for you to go. Money should not be an obstacle for anyone who desires to go on a trip. York Alliance Family of Churches does provide some funding for all who participate on a trip through a church-wide love offering. Additional request for funds will be considered on a case by case basis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission Trips Accordion -->
+        <section class="trips">
+            <h2 class="section-title global">MISSION DESTINATIONS › GLOBAL</h2>
+
+            <!-- Trip 1: France -->
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <div class="accordion-title">
+                        <h3>Brittany Manor House Renovation Trip (France)</h3>
+                        <p class="trip-subtitle">Minor construction, renovation, outdoor projects, and general cleanup</p>
+                    </div>
+                    <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <div class="trip-details">
+                        <div class="trip-meta">
+                            <p><strong>Team:</strong> 4-6 Adults and Students</p>
+                            <p><strong>Tentative Dates:</strong> 7 days in October (TBD)</p>
+                            <p><strong>Deposit:</strong> $100</p>
+                        </div>
+
+                        <p>Serve Steve and Alace Straw by helping them prepare the building and grounds for their new ministry in providing a retreat center for missionary workers. The team will engage in the following activities.</p>
+
+                        <ul>
+                            <li>Provide assistance in home maintenance and small interior and exterior projects</li>
+                            <li>Perform minor plumbing and electrical work (some skill level required)</li>
+                            <li>Create new hiking trails for retreat clients</li>
+                            <li>Perform some outdoor gardening and landscaping projects</li>
+                            <li>Build a tree house! (If time permits!)</li>
+                            <li>Provide spiritual support to Steve and Alace through fellowship, prayer and encouragement as they launch this new ministry</li>
+                        </ul>
+
+                        <p>York Alliance has been partnering with the Straws since they went overseas in 2007 when they started an aviation ministry in central Africa. Prior to that they served in local church ministry in the US for almost 15 years. This new ministry will allow both of them to use their experience and skills from the field to care well for others who need a time of refreshment and renewal. This much needed work will be available to a variety of organizations and denominations who send workers overseas for extended periods of time.</p>
+
+                        <div class="trip-footer">
+                            <p><strong>Cost:</strong> $1,000 per person. This includes flight, meals and housing for the trip. Scholarships may be available by contacting the church office. This trip qualifies to receive funds from the Mission Trip Love Offering.</p>
+                            <p><strong>Questions:</strong> <a href="mailto:mcarletti@yorkalliance.org">mcarletti@yorkalliance.org</a></p>
+                            <p><strong>Next Step:</strong> Attend a general meeting on Sunday, February 22, 12:15 pm, (Spring Grove Alliance Church), or on Sunday, March 1, 12:15pm (York Alliance Church in the Hub), to hear more information.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trip 2: Macedonia - Roma Retreat -->
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <div class="accordion-title">
+                        <h3>Macedonia - Retreat for Roma Christian Church Leaders</h3>
+                        <p class="trip-subtitle">Church Partnership, Encouragement, Edification, Prayer</p>
+                    </div>
+                    <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <div class="trip-details">
+                        <div class="trip-meta">
+                            <p><strong>Team:</strong> 10-12 Adults or Students</p>
+                            <p><strong>Prerequisite for Students:</strong> Have prior experience on an overseas mission trip</p>
+                            <p><strong>Tentative Dates:</strong> 8-9 days in Mid-June (TBD)</p>
+                            <p><strong>Deposit:</strong> $150</p>
+                        </div>
+
+                        <p>The focus of this trip is to prepare and lead a retreat for Roma Christian church leaders and missionaries working with Roma in the cities of Bitola and Prilep. The retreat will take place at a hotel/conference center along Lake Ohrid. We are looking for team members who can be involved in the retreat in one of the following ways:</p>
+
+                        <ul>
+                            <li>Leading or playing music for worship sessions</li>
+                            <li>Leading small group sessions</li>
+                            <li>Prayer ministry</li>
+                            <li>Working with children</li>
+                        </ul>
+
+                        <p>The goals of the retreat are to provide a space for Roma leaders to be encouraged through God's Word and by each other, and to rest from their regular work. The team will build relationships with the Roma, encourage local believers, and support local churches as necessary. Other activities will be determined based on the size and make-up of the mission team.</p>
+
+                        <p>The Roma are a marginalized, unreached people group that is primarily of Muslim background.</p>
+
+                        <div class="trip-footer">
+                            <p><strong>Cost:</strong> Approximately $1,700/person includes flight, meals and housing. This trip qualifies to receive funds from the Mission Trip Love Offering.</p>
+                            <p><strong>Questions:</strong> <a href="mailto:mcarletti@yorkalliance.org">mcarletti@yorkalliance.org</a></p>
+                            <p><strong>Next Step:</strong> Attend a general meeting on Sunday, February 22, 12:15 pm, (Spring Grove Alliance Church), or on Sunday, March 1, 12:15pm (York Alliance Church in the Hub), to hear more information.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trip 3: Macedonia - ANA Center -->
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <div class="accordion-title">
+                        <h3>Macedonia - ANA Regional Center Support</h3>
+                        <p class="trip-subtitle">Women's Ministry, Church Partnership, Outreach, Social Activities</p>
+                    </div>
+                    <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <div class="trip-details">
+                        <div class="trip-meta">
+                            <p><strong>Team:</strong> 4-6 Adults or Students</p>
+                            <p><strong>Prerequisite for Students:</strong> Have prior experience on an overseas mission trip</p>
+                            <p><strong>Tentative Dates:</strong> June 2 - June 10</p>
+                            <p><strong>Deposit:</strong> $150</p>
+                        </div>
+
+                        <p>Ana Christian Fellowship of Women in Macedonia is opening an Ana Regional Center in the city of Bitola! There are several ways we can join our Macedonian brothers and sisters and help make this possible.</p>
+
+                        <ul>
+                            <li>Repairing, repurposing, cleaning, furnishing, creative designing and decorating the physical place</li>
+                            <li>Prayer walking the community</li>
+                            <li>Talking and hanging out with those who come in</li>
+                            <li>Leading or helping with a workshop for example: DIY project, teach a skill, share your story, share a hack, anything English related, host an exercise class, etc.</li>
+                            <li>Leading or helping with a creative outreach event</li>
+                            <li>Using your knowledge and ability to host a workshop: medical, business, nutrition, tutoring, etc.</li>
+                            <li>Host an outreach event for women in the local area</li>
+                        </ul>
+
+                        <p>The focus of this trip is to help launch and support a newly established ANA Center that would be used for various ANA activities, meetings, and outreach events into the local community. The goal is to draw women together and introduce them to Jesus!</p>
+
+                        <p>David and Brenda Aderholdt have been serving in Macedonia for over 15 years. Brenda serves on the leadership team of ANA, a Christian fellowship of women that helps women throughout all of Macedonia to get to know God personally, to learn how to live a fulfilled life for His glory, and to serve in the activities of their local churches.</p>
+
+                        <div class="trip-footer">
+                            <p><strong>Cost:</strong> Approximately $1,700/person includes flight, meals and housing. This trip qualifies to receive funds from the Mission Trip Love Offering.</p>
+                            <p><strong>Questions:</strong> <a href="mailto:mcarletti@yorkalliance.org">mcarletti@yorkalliance.org</a></p>
+                            <p><strong>Next Step:</strong> Attend a general meeting on Sunday, February 22, 12:15 pm, (Spring Grove Alliance Church), or on Sunday, March 1, 12:15pm (York Alliance Church in the Hub), to hear more information.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trip 4: Rocky Road -->
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <div class="accordion-title">
+                        <h3>Rocky Road - Co-Working Space Workshop Team</h3>
+                        <p class="trip-subtitle">Working with local college students, travelers or business people, Relationship Building, Practicing English, Teaching or engaging in a specific topic, Unreached People Group</p>
+                    </div>
+                    <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <div class="trip-details">
+                        <div class="trip-meta">
+                            <p><strong>Team:</strong> 2-3 Adults</p>
+                            <p><strong>Tentative Dates:</strong> 8 days in the Fall (Dates can be determined by the availability of those that want to go)</p>
+                            <p><strong>Deposit:</strong> $250</p>
+                        </div>
+
+                        <p>Serve alongside our International Workers to establish a co-working space ministry for college students in the local community. The space will aim to create a relaxing & inviting atmosphere for freelancers, university students, entrepreneurs, and for those working abroad that are in town for an extended stay. Engage in the following activities.</p>
+
+                        <ul>
+                            <li>Provide events or workshops on topics of interest</li>
+                            <li>Provide opportunities for social events or outings</li>
+                            <li>Interact with clients through fun or creative activities</li>
+                            <li>Provide spiritual support for the local workers through prayer and encouragement as they launch this new ministry.</li>
+                        </ul>
+
+                        <p>Those interested in going should have some ideas on what topic they would like to engage/teach/lead in. Examples of topics include, teaching first aid, leading a workshop on creating a website or some other technical area of expertise, providing basic music lessons, financial planning, art seminar, photography, and creating resumes.</p>
+
+                        <p>York Alliance began partnering with a family who moved to this region of the world three years ago. Their desire is to establish a co-working space in the local community that nearby college students can come to study, learn about different topics, and hang out. The space will also serve as a café and bakery employs women who have been rescued from trafficking. Our partnership includes support through the Great Commission Fund and through intentional prayer. God is doing great things in this part of the world and it's great to be able to assist them in His work.</p>
+
+                        <div class="trip-footer">
+                            <p><strong>Cost:</strong> $2,000 per person. This includes flight, meals and housing for the trip. Scholarships may be available by contacting the church office. This trip qualifies to receive funds from the Mission Trip Love Offering.</p>
+                            <p><strong>Questions:</strong> <a href="mailto:mcarletti@yorkalliance.org">mcarletti@yorkalliance.org</a></p>
+                            <p><strong>Next Step:</strong> Attend a general meeting on Sunday, February 22, 12:15 pm, (Spring Grove Alliance Church), or on Sunday, March 1, 12:15pm (York Alliance Church in the Hub), to hear more information.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trip 5: El Salvador - Youth Retreat -->
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <div class="accordion-title">
+                        <h3>El Salvador - Church of Faith & Worship</h3>
+                        <p class="trip-subtitle">Youth Retreat & Community Engagement - Church Partnership, Community Engagement, Light Construction, Student Ministry, Prayer Groups</p>
+                    </div>
+                    <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <div class="trip-details">
+                        <div class="trip-meta">
+                            <p><strong>Team:</strong> 8-10 Students</p>
+                            <p><strong>Prerequisite for Students:</strong> Participation in Urban Exchange, ENVISION, or CSM</p>
+                            <p><strong>Tentative Dates:</strong> July 31 - August 8</p>
+                            <p><strong>Deposit:</strong> $150</p>
+                        </div>
+
+                        <p>Serve alongside the Church of Faith and Worship by:</p>
+
+                        <ul>
+                            <li>Participating in a youth retreat</li>
+                            <li>Assisting in neighborhood connection efforts</li>
+                            <li>Partnering with the church's prayer ministry through various activities</li>
+                            <li>Growing in an understanding of the global advancement of the Kingdom of God</li>
+                        </ul>
+
+                        <p>El Salvador is a tiny Central American nation that borders on the Pacific Ocean. York Alliance has had a long-standing relationship with the Church of Faith and Worship in San Salvador, El Salvador. Over the past several years, York Alliance has sent teams to serve in a variety of different ways including construction projects, vision clinics, Vacation Bible School, neighborhood outreach events, and youth leadership events. This trip prioritizes spiritual formation and relational connections.</p>
+
+                        <p><strong>Note:</strong> Both students and adults are welcome to participate in this trip. First-time students will be prioritized.</p>
+
+                        <div class="trip-footer">
+                            <p><strong>Cost:</strong> Approximately $1,000-1,200/person includes flight, meals, and housing. This trip qualifies to receive funds from the Mission Trip Love Offering.</p>
+                            <p><strong>Questions:</strong> Taylor Sharp, <a href="mailto:tsharp@yorkalliance.org">tsharp@yorkalliance.org</a></p>
+                            <p><strong>Next Step:</strong> Attend a general meeting on Sunday, February 22, 12:15 pm, (Spring Grove Alliance Church), or on Sunday, March 1, 12:15pm (York Alliance Church in the Hub), to hear more information.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trip 6: El Salvador - Prison Ministry -->
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <div class="accordion-title">
+                        <h3>El Salvador - Prison Ministry Outreach</h3>
+                        <p class="trip-subtitle">Church Partnership, Ministering to the Overlooked, Spiritual Encouragement</p>
+                    </div>
+                    <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <div class="trip-details">
+                        <div class="trip-meta">
+                            <p><strong>Team:</strong> 10 Adults (minimum 18 years of age)</p>
+                            <p><strong>Tentative Dates:</strong> July 15-20 (tentative dates)</p>
+                            <p><strong>Deposit:</strong> $150</p>
+                        </div>
+
+                        <p>Serve alongside the Good News Prison Ministry by participating in some or all of the following:</p>
+
+                        <ul>
+                            <li>Ministering to men and women in prison through hosting a church service, prayer, and personal connection</li>
+                            <li>Handing out Hope Packs. Bags of personal items for those who don't receive packages</li>
+                            <li>Sharing and praying in small groups</li>
+                            <li>Minister to youth participating in a rehabilitation program in the only youth detention center in the country</li>
+                            <li>Engage with the youth in a bible study, prayer, sports, or other activities</li>
+                            <li>Share a meal with the youth</li>
+                        </ul>
+
+                        <p>El Salvador is a tiny Central American nation that borders on the Pacific Ocean. Over the past five years, thousands of people have been incarcerated in an effort to reduce the violence within the country. Most of these individuals have been forgotten and have no hope of ever being released. There is a great need for most of them to hear the good news about Jesus and the hope that He brings!</p>
+
+                        <div class="trip-footer">
+                            <p><strong>Cost:</strong> Approximately $1,600/person includes flight, meals, and housing. This trip qualifies to receive funds from the Mission Trip Love Offering.</p>
+                            <p><strong>Questions:</strong> Michael Carletti, <a href="mailto:mcarletti@yorkalliance.org">mcarletti@yorkalliance.org</a></p>
+                            <p><strong>Next Step:</strong> Attend a general meeting on Sunday, February 22, 12:15 pm, (Spring Grove Alliance Church), or on Sunday, March 1, 12:15pm (York Alliance Church in the Hub), to hear more information.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trip 7: El Salvador - Kingdom Leaders -->
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <div class="accordion-title">
+                        <h3>El Salvador - Kingdom Leaders Camp</h3>
+                        <p class="trip-subtitle">Church Partnership, Spiritual Formation & Leadership Development, Developing Kingdom Leaders</p>
+                    </div>
+                    <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <div class="trip-details">
+                        <div class="trip-meta">
+                            <p><strong>Team:</strong> 10 Adults & Students</p>
+                            <p><strong>Prerequisite for Students:</strong> Second time to El Salvador, or permission by adult youth leader</p>
+                            <p><strong>Tentative Dates:</strong> July 18 - 25 (tentative dates)</p>
+                            <p><strong>Deposit:</strong> $150</p>
+                        </div>
+
+                        <p>Serve alongside the CEFAS high school by:</p>
+
+                        <ul>
+                            <li>Hosting a focused three-day camp for youth in one of the following areas
+                                <ul>
+                                    <li>Sports, Music, Art, Computers, Creative Writing</li>
+                                </ul>
+                            </li>
+                            <li>Have some level of expertise in an area above, and be able to teach fundamentals in that area</li>
+                            <li>Connect and build relationships with people in the church through attending worship gatherings, attending community groups, eating meals together, enjoying fun downtime activities together, etc.</li>
+                        </ul>
+
+                        <p>CEFAS High School is a Christian school run by the CEFAD church. CEFAD church is a larger, evangelical church that has existed for over 30 years in San Salvador. It is located approximately 3 miles from the Church of Faith and Worship, however, it is considered a different community. CEFAS is a kingdom school connected to the church with over 600 children and youth attending. They are faithfully raising kingdom workers to lead the next generation in El Salvador!</p>
+
+                        <div class="trip-footer">
+                            <p><strong>Cost:</strong> Approximately $1,600/person includes flight, meals, and housing. This trip qualifies to receive funds from the Mission Trip Love Offering.</p>
+                            <p><strong>Questions:</strong> Taylor Sharp, <a href="mailto:tsharp@yorkalliance.org">tsharp@yorkalliance.org</a></p>
+                            <p><strong>Next Step:</strong> Attend a general meeting on Sunday, February 22, 12:15 pm, (Spring Grove Alliance Church), or on Sunday, March 1, 12:15pm (York Alliance Church in the Hub), to hear more information.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Local Trips Section -->
+        <section class="trips">
+            <h2 class="section-title local">MISSION DESTINATIONS › LOCAL</h2>
+
+            <!-- Trip 8: Urban Exchange -->
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <div class="accordion-title">
+                        <h3>York City - Urban Exchange</h3>
+                        <p class="trip-subtitle">Meeting Needs, Engaging urban homelessness, poverty and racism, Completing small outdoor projects for homeowners</p>
+                    </div>
+                    <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <div class="trip-details">
+                        <div class="trip-meta">
+                            <p><strong>Team:</strong> 10 Adults & Students per trip</p>
+                            <p><strong>Prerequisite for Students:</strong> Participation in Connect</p>
+                            <p><strong>Tentative Dates:</strong> June 28 - July 4; Aug 2 - 8</p>
+                            <p><strong>Deposit:</strong> $50</p>
+                        </div>
+
+                        <p>Urban Exchange is a one-week summer mission experience that immerses youth in urban culture through relationships, education, and service. Students will learn about the history of York City, the impact of poverty and racism, and why God's heart beats for the city.</p>
+
+                        <p>This experience will open your eyes and shape your heart for people who are different from you. It will stretch your faith, deepen your compassion, and inspire you to care for "the least of these."</p>
+
+                        <p>Serve alongside others by:</p>
+
+                        <ul>
+                            <li>Experiencing life and ministry in an urban context</li>
+                            <li>Serving the needy at a local shelter or food pantry</li>
+                            <li>Connect with those who are impacted by poverty and racism</li>
+                            <li>Serve a local neighborhood by completing small outdoor projects</li>
+                            <li>Ministering to people through prayer and sharing</li>
+                        </ul>
+
+                        <p><strong>Note:</strong> Both students & adults are welcome to participate in this trip, however, first-time students will be prioritized.</p>
+
+                        <div class="trip-footer">
+                            <p><strong>Cost:</strong> $550/person includes lodging, food, and activities. Student fundraising goes towards this trip.</p>
+                            <p><strong>Questions:</strong> Michael Carletti, <a href="mailto:mcarletti@yorkalliance.org">mcarletti@yorkalliance.org</a>, or Taylor Sharp, <a href="mailto:tsharp@yorkalliance.org">tsharp@yorkalliance.org</a></p>
+                            <p><strong>Next Step:</strong> Attend a general meeting on Sunday, February 22, 12:15 pm, (Spring Grove Alliance Church), or on Sunday, March 1, 12:15pm (York Alliance Church in the Hub), to hear more information.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trip 9: Connect -->
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <div class="accordion-title">
+                        <h3>York City - Connect</h3>
+                        <p class="trip-subtitle">Church Partnership, Meeting Needs, Community Engagement</p>
+                    </div>
+                    <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <div class="trip-details">
+                        <div class="trip-meta">
+                            <p><strong>Team:</strong> Adults & Students</p>
+                            <p><strong>Tentative Dates:</strong> June 24 - June 28</p>
+                            <p><strong>Deposit:</strong> $50</p>
+                        </div>
+
+                        <p>Connect is a local mission experience for middle school students & those participating in a mission experience for the first time. Adults are invited to participate alongside students during the week. Connect is specifically designed to introduce the participant to a mission-trip type of experience. It will expose students to the various needs around York while partnering and building relationships with adults from York Alliance in the process.</p>
+
+                        <p>Serve alongside York Alliance students by:</p>
+
+                        <ul>
+                            <li>Serving neighbors with yard work and household projects</li>
+                            <li>Promoting community engagement by hosting several neighborhood block parties</li>
+                        </ul>
+
+                        <p><strong>Note:</strong> Both students & adults are welcome to participate in this trip, however, middle school & first-time students will be prioritized.</p>
+
+                        <div class="trip-footer">
+                            <p><strong>Cost:</strong> Approx. $200/person includes lodging and food</p>
+                            <p><strong>Questions:</strong> Taylor Sharp, <a href="mailto:tsharp@yorkalliance.org">tsharp@yorkalliance.org</a></p>
+                            <p><strong>Next Step:</strong> Attend a general meeting on Sunday, February 22, 12:15 pm, (Spring Grove Alliance Church), or on Sunday, March 1, 12:15pm (York Alliance Church in the Hub), to hear more information.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trip 10: Hope's Haven -->
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <div class="accordion-title">
+                        <h3>Hope's Haven</h3>
+                        <p class="trip-subtitle">Youth Foster Care, Camp Counselors, Mentoring & Friendship</p>
+                    </div>
+                    <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <div class="trip-details">
+                        <div class="trip-meta">
+                            <p><strong>Team:</strong> Students</p>
+                            <p><strong>Dates:</strong> July 6-10 (Camp Hebron - camper ages 9-12)</p>
+                            <p><strong>Deposit:</strong> $50</p>
+                        </div>
+
+                        <p>Serve at Hope's Haven summer camps in the following capacity.</p>
+
+                        <p><strong>Camp Support</strong> - Individuals age 15 and older who assist directors in setting up and tearing down activities and games for the campers to participate in and fill in where needed. When traditional models aren't possible, missions becomes about presence living faithfully, working with integrity, and sharing Christ naturally.</p>
+
+                        <p>Hope's Haven is dedicated to sharing the Good News of Christ with Foster-Impacted Youth.</p>
+
+                        <div class="trip-footer">
+                            <p><strong>Cost:</strong> Approximately $350/person includes lodging and food.</p>
+                            <p><strong>Questions:</strong> Zac Rebuck, <a href="mailto:zac@hopeshavencamp.org">zac@hopeshavencamp.org</a></p>
+                            <p><strong>Next Step:</strong> Attend a general meeting on Sunday, February 22, 12:15 pm, (Spring Grove Alliance Church), or on Sunday, March 1, 12:15pm (York Alliance Church in the Hub), to hear more information.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vision Statement Footer -->
+        <footer class="vision">
+            <div class="vision-content">
+                <p class="vision-text">
+                    <span class="vision-medium">We</span> 
+                    <span class="vision-large">PURSUE</span> 
+                    <span class="vision-medium">the</span> 
+                    <span class="vision-xlarge">TRANSFORMATIONAL LOVE</span> 
+                    <span class="vision-medium">of</span> 
+                    <span class="vision-xxlarge">JESUS</span> 
+                    <span class="vision-medium">and seek to build</span> 
+                    <span class="vision-large">COMMUNITIES</span> 
+                    <span class="vision-medium">that share this love with</span>
+                    <span class="vision-large">ALL PEOPLE</span>
+                </p>
+                <p class="vision-attribution">-York Alliance Vision Statement</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+/**
+ * Mission Trips Accordion Functionality
+ * York Alliance Family of Churches
+ */
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize accordion
+    initAccordion();
+    
+    // Add smooth scroll behavior
+    addSmoothScroll();
+    
+    // Add keyboard navigation
+    addKeyboardNavigation();
+});
+
+/**
+ * Initialize accordion functionality
+ */
+function initAccordion() {
+    const accordionHeaders = document.querySelectorAll('.accordion-header');
+    
+    accordionHeaders.forEach(header => {
+        header.addEventListener('click', function() {
+            const accordionItem = this.parentElement;
+            const isActive = accordionItem.classList.contains('active');
+            
+            // Close all accordion items
+            closeAllAccordions();
+            
+            // Toggle current accordion
+            if (!isActive) {
+                openAccordion(accordionItem);
+            }
+        });
+    });
+}
+
+/**
+ * Open a specific accordion item
+ * @param {HTMLElement} accordionItem - The accordion item to open
+ */
+function openAccordion(accordionItem) {
+    accordionItem.classList.add('active');
+    const header = accordionItem.querySelector('.accordion-header');
+    header.setAttribute('aria-expanded', 'true');
+    
+    // Smooth scroll to the opened accordion
+    setTimeout(() => {
+        const headerTop = accordionItem.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 20; // Offset from top
+        window.scrollTo({
+            top: headerTop - offset,
+            behavior: 'smooth'
+        });
+    }, 100);
+}
+
+/**
+ * Close a specific accordion item
+ * @param {HTMLElement} accordionItem - The accordion item to close
+ */
+function closeAccordion(accordionItem) {
+    accordionItem.classList.remove('active');
+    const header = accordionItem.querySelector('.accordion-header');
+    header.setAttribute('aria-expanded', 'false');
+}
+
+/**
+ * Close all accordion items
+ */
+function closeAllAccordions() {
+    const accordionItems = document.querySelectorAll('.accordion-item');
+    accordionItems.forEach(item => {
+        closeAccordion(item);
+    });
+}
+
+/**
+ * Add smooth scroll behavior for anchor links
+ */
+function addSmoothScroll() {
+    const links = document.querySelectorAll('a[href^="#"]');
+    
+    links.forEach(link => {
+        link.addEventListener('click', function(e) {
+            const targetId = this.getAttribute('href');
+            if (targetId === '#') return;
+            
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                e.preventDefault();
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+}
+
+/**
+ * Add keyboard navigation for accordion
+ */
+function addKeyboardNavigation() {
+    const accordionHeaders = document.querySelectorAll('.accordion-header');
+    
+    accordionHeaders.forEach((header, index) => {
+        // Set ARIA attributes
+        header.setAttribute('aria-expanded', 'false');
+        header.setAttribute('aria-controls', `accordion-content-${index}`);
+        
+        const content = header.nextElementSibling;
+        content.setAttribute('id', `accordion-content-${index}`);
+        content.setAttribute('role', 'region');
+        content.setAttribute('aria-labelledby', `accordion-header-${index}`);
+        
+        header.setAttribute('id', `accordion-header-${index}`);
+        
+        // Add keyboard event listeners
+        header.addEventListener('keydown', function(e) {
+            const accordionItem = this.parentElement;
+            const isActive = accordionItem.classList.contains('active');
+            
+            switch(e.key) {
+                case 'Enter':
+                case ' ':
+                    e.preventDefault();
+                    this.click();
+                    break;
+                case 'ArrowDown':
+                    e.preventDefault();
+                    focusNextAccordion(index);
+                    break;
+                case 'ArrowUp':
+                    e.preventDefault();
+                    focusPreviousAccordion(index);
+                    break;
+                case 'Home':
+                    e.preventDefault();
+                    accordionHeaders[0].focus();
+                    break;
+                case 'End':
+                    e.preventDefault();
+                    accordionHeaders[accordionHeaders.length - 1].focus();
+                    break;
+            }
+        });
+    });
+}
+
+/**
+ * Focus on the next accordion header
+ * @param {number} currentIndex - Current accordion index
+ */
+function focusNextAccordion(currentIndex) {
+    const accordionHeaders = document.querySelectorAll('.accordion-header');
+    const nextIndex = (currentIndex + 1) % accordionHeaders.length;
+    accordionHeaders[nextIndex].focus();
+}
+
+/**
+ * Focus on the previous accordion header
+ * @param {number} currentIndex - Current accordion index
+ */
+function focusPreviousAccordion(currentIndex) {
+    const accordionHeaders = document.querySelectorAll('.accordion-header');
+    const previousIndex = currentIndex === 0 ? accordionHeaders.length - 1 : currentIndex - 1;
+    accordionHeaders[previousIndex].focus();
+}
+
+/**
+ * Optional: Add URL hash support for direct linking to trips
+ */
+function addHashSupport() {
+    // Open accordion if hash matches
+    if (window.location.hash) {
+        const hashId = window.location.hash.substring(1);
+        const targetAccordion = document.getElementById(hashId);
+        if (targetAccordion && targetAccordion.classList.contains('accordion-item')) {
+            openAccordion(targetAccordion);
+        }
+    }
+    
+    // Update hash when accordion opens
+    const accordionHeaders = document.querySelectorAll('.accordion-header');
+    accordionHeaders.forEach(header => {
+        header.addEventListener('click', function() {
+            const accordionItem = this.parentElement;
+            if (accordionItem.id) {
+                history.pushState(null, null, `#${accordionItem.id}`);
+            }
+        });
+    });
+}
+
+// Optional: Uncomment to enable hash support
+// addHashSupport();
+
+</script>
+    
+    <!-- Auto-resize for iframe embedding -->
+    <script>
+        // Send height to parent window for iframe auto-resize
+        function sendHeight() {
+            if (window.parent !== window) {
+                const height = document.documentElement.scrollHeight;
+                window.parent.postMessage({ height: height }, '*');
+            }
+        }
+        
+        // Send height on load and when content changes
+        window.addEventListener('load', sendHeight);
+        window.addEventListener('resize', sendHeight);
+        
+        // Send height when accordions open/close
+        document.addEventListener('click', function(e) {
+            if (e.target.closest('.accordion-header')) {
+                setTimeout(sendHeight, 500);
+            }
+        });
+    </script>
+</body>
+</html>
+
